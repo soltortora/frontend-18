@@ -12,6 +12,15 @@ apellido = 'Petriella';
 
 console.log (apellido)
 
+//TIPOS DE DATOS 
+//datos primitivos 
+//string = cadenas de caracteres
+//number = numeros
+//boolean =true /flase 
+//undefined =no definido 
+//null = nulo 
+//NaN= not a Number 
+
 let name = prompt ('Ingresa tu nombre', 'nombre')
 
 let lastName = prompt ('Ingresa tu apellido', 'apellido')
@@ -25,6 +34,7 @@ alert('Hola ${name}') //le falta comillas invertidas, no las encontre :(
 
 let primerNumero = prompt('ingrese un numero', '')
 let segundoNumero =prompt('ingrese un numero para ser sumado', '')
+let resultado = Number (primerNumero) + Number(segundoNumero);
 
 alert ('El resultado es ${resultado}') //falta comillas invertidas 
 
