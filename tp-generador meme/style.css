@@ -1,0 +1,13 @@
+.hidden {
+    display: none;
+}
+
+.aside {
+    width: 20%;
+    height: 100vh;
+    margin-left: auto;
+    background-color: gray;
+}
+
+/*div que tinee header y main 
+y otro div que tienen aside y ambos dentro de div o body s*/

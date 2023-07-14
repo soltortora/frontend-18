@@ -11,9 +11,9 @@
 //operador modelo =>
 //las funciones tienen una fuction, las usamos para obtener ciertos datos y tener otros resultados. adentro de cada funcion hay un mundo
 
-const esImpar = (numero)  => {
-    return (numero % 2) === 1
-};
+function esImpar(numero) {
+    return (numero % 2) === 1;
+}
 
 console.log(esImpar(15)) 
 console.log(esImpar(346))
@@ -40,10 +40,13 @@ console.log(1 === '1');  //false
 
 const puedeVerPelicula = (edad, tieneAutorizacion) => {
     if(edad >= 15) {
+        console.log('se cumple la condiicon y el usuario es mayor de edad')
         return true;
     }else if (tieneAutorizacion) {
+        console.log('no es mayor de edad pero si se cumple la condiicon de tener autorizacion')
         return true;
     }else {
+        console.log('no se cumple ninguna condicion el usuario no puede ver la')
         return false;
     }
 }

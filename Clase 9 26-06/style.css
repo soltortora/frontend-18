@@ -1,0 +1,22 @@
+.green {
+    color: green;
+    font-size: 20px;
+    text-decoration:wavy;
+}
+
+/*en el css poner modo claro y modo oscuro */
+
+.modo-claro {
+    background-color: bisque;
+    color: black;
+}
+
+.modo-oscuro {
+    background-color: darkgray;
+    color: beige;
+}
+
+/*header,main y aside */
+
+
+

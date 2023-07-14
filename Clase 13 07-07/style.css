@@ -1,0 +1,25 @@
+.input-color {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+}
+
+.input-color::-webkit-color-swatch,
+.input-color::-webkit-color-swatch-wrapper {
+        border-radius: 100%;
+        border: none;
+        padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*cuando tinee :: una seudoclase*/
